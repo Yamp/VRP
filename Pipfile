@@ -1,0 +1,30 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+osrm = "*"
+numpy = "*"
+pulp = "*"
+ipython = "*"
+python-dateutil = "*"
+scipy = "*"
+xlrd = "*"
+jupyter = "*"
+geopy = "*"
+mpu = "*"
+pytest = "*"
+fastrand = "*"
+icecream = "*"
+numba = "*"
+cython = "*"
+matplotlib = "*"
+pandas = "*"
+python-tcp = "*"
+python-christofides = "*"
+
+[requires]
+python_version = "3.7"

@@ -1,0 +1,170 @@
+<ANN z:Id="1" xmlns="http://schemas.datacontract.org/2004/07/Outotec.HSC.NeuralNetwork"
+     xmlns:i="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+    <Layers z:Id="2" z:Size="1">
+        <ANN.Layer z:Id="3">
+            <Neurons z:Id="4" z:Size="1">
+                <ANN.Neuron z:Id="5">
+                    <Weights z:Id="6" z:Size="9"
+                             xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                        <a:double>0.26249164402416719</a:double>
+                        <a:double>0.089282205034112827</a:double>
+                        <a:double>0.015107748404316756</a:double>
+                        <a:double>0.018458126141124041</a:double>
+                        <a:double>-0.049248072631909258</a:double>
+                        <a:double>-0.059356087007717287</a:double>
+                        <a:double>0.10441104080285679</a:double>
+                        <a:double>-0.01254512774822655</a:double>
+                        <a:double>0.17116378807998875</a:double>
+                    </Weights>
+                    <DeltaWeights z:Id="7" z:Size="9"
+                                  xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                        <a:double>1.7471016225219145E-07</a:double>
+                        <a:double>-2.3187750835891766E-07</a:double>
+                        <a:double>1.3515177643522837E-07</a:double>
+                        <a:double>-2.2512185586311305E-08</a:double>
+                        <a:double>4.6176193325740213E-08</a:double>
+                        <a:double>-7.7047750181882825E-08</a:double>
+                        <a:double>-1.1106967825459299E-08</a:double>
+                        <a:double>1.9519470193256544E-08</a:double>
+                        <a:double>-1.2112972817960695E-07</a:double>
+                    </DeltaWeights>
+                    <NeuronError>-0.18958966849478467</NeuronError>
+                    <Output>0.026626697391806786</Output>
+                </ANN.Neuron>
+            </Neurons>
+            <Inputs z:Id="8" z:Size="8"
+                    xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                <a:double>-0.465618005363782</a:double>
+                <a:double>-0.63980771247301038</a:double>
+                <a:double>0.47447719869587179</a:double>
+                <a:double>0.84768267353583449</a:double>
+                <a:double>0.49395413333275945</a:double>
+                <a:double>0.0045488270842775971</a:double>
+                <a:double>0.33549069855253855</a:double>
+                <a:double>-0.12432150268490817</a:double>
+            </Inputs>
+            <ActivationFunction>Linear</ActivationFunction>
+        </ANN.Layer>
+    </Layers>
+    <Instructions z:Id="9"/>
+    <LearningRate>6.388407984906665E-07</LearningRate>
+    <Momentum>0.1</Momentum>
+    <WeightDecay>0</WeightDecay>
+    <InputMin z:Id="10" z:Size="8"
+              xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <a:double>114.99153644295303</a:double>
+        <a:double>92.5043</a:double>
+        <a:double>261.19567533799989</a:double>
+        <a:double>0.6</a:double>
+        <a:double>18.814808382590613</a:double>
+        <a:double>29.993565740000005</a:double>
+        <a:double>6.840080876370604</a:double>
+        <a:double>1.2386199071307302</a:double>
+    </InputMin>
+    <InputMax z:Id="11" z:Size="8"
+              xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <a:double>379.71737798156005</a:double>
+        <a:double>280.9981720192</a:double>
+        <a:double>728.46264197299979</a:double>
+        <a:double>12.3</a:double>
+        <a:double>73.333609819412231</a:double>
+        <a:double>63.768675866000009</a:double>
+        <a:double>43.868375769877986</a:double>
+        <a:double>12.279497445333329</a:double>
+    </InputMax>
+    <InputScaleMin z:Id="12" z:Size="8"
+                   xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <a:double>-1</a:double>
+        <a:double>-1</a:double>
+        <a:double>-1</a:double>
+        <a:double>-1</a:double>
+        <a:double>-1</a:double>
+        <a:double>-1</a:double>
+        <a:double>-1</a:double>
+        <a:double>-1</a:double>
+    </InputScaleMin>
+    <InputScaleMax z:Id="13" z:Size="8"
+                   xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <a:double>1</a:double>
+        <a:double>1</a:double>
+        <a:double>1</a:double>
+        <a:double>1</a:double>
+        <a:double>1</a:double>
+        <a:double>1</a:double>
+        <a:double>1</a:double>
+        <a:double>1</a:double>
+    </InputScaleMax>
+    <InputMean z:Id="14" z:Size="8"
+               xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <a:double>-0.15007804340132747</a:double>
+        <a:double>0.0620861743193504</a:double>
+        <a:double>0.0015819142216953218</a:double>
+        <a:double>-0.52558150608289766</a:double>
+        <a:double>0.72057344268077128</a:double>
+        <a:double>-0.13794567058823518</a:double>
+        <a:double>0.21752756771924608</a:double>
+        <a:double>-0.73276190520906648</a:double>
+    </InputMean>
+    <InputSD z:Id="15" z:Size="8"
+             xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <a:double>0.36171076425331905</a:double>
+        <a:double>0.40305361019347535</a:double>
+        <a:double>0.2922285578873397</a:double>
+        <a:double>0.20662703287888176</a:double>
+        <a:double>0.33614824689417644</a:double>
+        <a:double>0.32729879588255145</a:double>
+        <a:double>0.31078068278797216</a:double>
+        <a:double>0.23068274080199594</a:double>
+    </InputSD>
+    <OutputMin z:Id="16" z:Size="1"
+               xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <a:double>582.86406109997017</a:double>
+    </OutputMin>
+    <OutputMax z:Id="17" z:Size="1"
+               xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <a:double>1085.481700873806</a:double>
+    </OutputMax>
+    <OutputScaleMin z:Id="18" z:Size="1"
+                    xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <a:double>-1</a:double>
+    </OutputScaleMin>
+    <OutputScaleMax z:Id="19" z:Size="1"
+                    xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <a:double>1</a:double>
+    </OutputScaleMax>
+    <InputInfoA z:Id="20" z:Size="8"
+                xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <a:string z:Id="21">Variable 1</a:string>
+        <a:string z:Id="22">Variable 2</a:string>
+        <a:string z:Id="23">Variable 3</a:string>
+        <a:string z:Id="24">Variable 4</a:string>
+        <a:string z:Id="25">Variable 5</a:string>
+        <a:string z:Id="26">Variable 6</a:string>
+        <a:string z:Id="27">Variable 7</a:string>
+        <a:string z:Id="28">Variable 8</a:string>
+    </InputInfoA>
+    <InputInfoB z:Id="29" z:Size="8"
+                xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <a:string z:Id="30">Zn ot el</a:string>
+        <a:string z:Id="31">Zn Fe rr</a:string>
+        <a:string z:Id="32">Zn ogar</a:string>
+        <a:string z:Id="33">Fract</a:string>
+        <a:string z:Id="34">T Ar 1</a:string>
+        <a:string z:Id="35">Zn kek</a:string>
+        <a:string z:Id="36">Fe ogar</a:string>
+        <a:string z:Id="37">S orar</a:string>
+    </InputInfoB>
+    <InputInfoC z:Id="38" z:Size="0"
+                xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+    <OutputInfoA z:Id="39" z:Size="1"
+                 xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <a:string z:Id="40">Output</a:string>
+    </OutputInfoA>
+    <OutputInfoB z:Id="41" z:Size="1"
+                 xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <a:string z:Ref="9" i:nil="true"/>
+    </OutputInfoB>
+    <OutputInfoC z:Id="42" z:Size="0"
+                 xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+</ANN>

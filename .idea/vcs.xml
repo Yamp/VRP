@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/libs/monte-carlo-cvrp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/libs/scanalytics" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/presice/pyconcorde" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/repos/som-tsp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/repos/som_tsp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/scanalytics" vcs="Git" />
+  </component>
+</project>
