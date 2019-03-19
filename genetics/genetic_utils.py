@@ -128,14 +128,20 @@ class ArrayMutator:
 
     def crossover(self, l1, l2):
         start, end = random_pair(len(l1))  # первый и последний элемент p1
+        p1_inner = randbool()
         child = [None] * len(l1)  # будущий ребенок
         parents = [l1, l2]
         random.shuffle([l1, l2])  # перемешанные родители
         p1, p2 = parents
 
-        from_p1 = set(p1[start:end + 1])  # словарь того, что будем повторять
-        child[start:end + 1] = p1[start:end + 1]  # копируем кусок в ребенка
-        child_slots = chain(range(0, start), range(end + 1, len(p1)))  # сохраняем пустые места
+        if p1_inner:
+            from_p1 = set(p1[start:end + 1])  # словарь того, что будем повторять
+            child[start:end+1] = p1[start:end + 1]  # копируем кусок в ребенка
+            child_slots = chain(range(0, start), range(end + 1, len(p1)))  # сохраняем пустые места
+        else:
+            from_p1 = set(chain(p1[:start], p1[end+1:]))  # словарь того, что будем повторять
+            child[:start], child[end+1:] = p1[:start], p1[end+1:]  # копируем кусок в ребенка
+            child_slots = range(start, end + 1)
 
         for pl in p2:
             if pl not in from_p1:
